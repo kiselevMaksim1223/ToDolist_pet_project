@@ -91,8 +91,8 @@ export function Todolist(props: PropsType) {
         <div>
             {/*<button onClick={()=> { ChangeFilterUniversal("all") } }>All</button>*/}
             <Button name={"All"} callBack={()=> { ChangeFilterUniversal("all")}} />
-            <Button name={"All"} callBack={()=> { ChangeFilterUniversal("active")}} />
-            <Button name={"All"} callBack={()=> { ChangeFilterUniversal("completed")}} />
+            <Button name={"Active"} callBack={()=> { ChangeFilterUniversal("active")}} />
+            <Button name={"Complete"} callBack={()=> { ChangeFilterUniversal("completed")}} />
             {/*<button onClick={()=> { ChangeFilterUniversal("active") } }>Active</button>*/}
             {/*<button onClick={()=> { ChangeFilterUniversal("completed") } }>Completed</button>*/}
         </div>
